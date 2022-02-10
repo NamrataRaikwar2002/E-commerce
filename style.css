@@ -1,0 +1,21 @@
+:root {
+    --box-shadow: 0px 0px 7px 0px #94a3b8;
+    --btn-radius: 0.2rem;
+    --box-radius: 0.5rem;
+    --btn-opacity: 0.8;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content {
+    margin-top: 4rem;
+}
+
+@media screen and (max-width: 998px) {
+    .content {
+        margin-top: 6rem;
+    }
+}
