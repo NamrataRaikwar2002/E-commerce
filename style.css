@@ -14,8 +14,41 @@ body {
     margin-top: 4rem;
 }
 
-@media screen and (max-width: 998px) {
+.e_com_btn,
+.horizontal_cart_btn {
+    width: 12rem;
+    border: none;
+    color: white;
+    font-size: medium;
+    padding: 0.5rem;
+    border-radius: var(--box-radius);
+    display: flex;
+    justify-content: center;
+}
+
+.horizontal_cart_btn,
+.addto_cart {
+    display: flex;
+    justify-content: center;
+    background-color: var(--secondary-color);
+}
+
+.primary_selected_btn {
+    background-color: var(--primary-color);
+
+}
+
+.secondary_selected_btn {
+    background-color: var(--secondary-color);
+}
+
+.wishlist_btn {
+    border: 2px solid var(--secondary-color);
+    color: var(--secondary-color);
+}
+
+@media screen and (max-width: 1000px) {
     .content {
-        margin-top: 6rem;
+        margin-top: 8rem;
     }
 }
