@@ -15,12 +15,15 @@
     <main class="product_page">
         <nav class="navigation">
             <h2>Website</h2>
-            <input type="text" class="search_bar" placeholder="Search..">
+            <div class="search_icon">
+                <input type="text" class="search_bar" placeholder="Search.." name="search">
+                <i class="fa fa-search"></i>
+            </div>
             <aside class="nav_rightside">
                 <a href="/home/index.html" class="navbar_link">Home</a>
                 <a href="" class="navbar_link">Product</a>
-                <a href=""><i class="far fa-heart nav_icon"></i></a>
-                <a href=""><i class="fas fa-shopping-cart nav_icon"></i></a>
+                <a href="/wishlist/wishlist.html"><i class="far fa-heart nav_icon"></i></a>
+                <a href="/cart/cart.html"><i class="fas fa-shopping-cart nav_icon"></i></a>
                 <a href="/Authentication/login/login.html"><button class="nav_btn navbar_link">Login</button></a>
             </aside>
         </nav>
@@ -57,7 +60,7 @@
                 </div>
                 <div class="rating_slider">
                     <h3>Ratings</h3>
-                    <input type="range" min="1" max="100" value="10">
+                    <input type="range" min="1" max="100" value="50">
                 </div>
 
             </aside>
