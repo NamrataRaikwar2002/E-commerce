@@ -1,0 +1,34 @@
+@import url(/home/home.css);
+@import url(/style.css);
+@import url(/product/product.css);
+
+.wishlist_products {
+    padding: 1rem;
+}
+
+.wishlist_products_div {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.all_wishlist_products {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+    z-index: -1;
+    padding: 2rem;
+    background-color: var(--bg-color);
+}
+
+.wishlist_icon {
+    color: red;
+}
+
+.product_list_item {
+    position: relative;
+}

@@ -3,6 +3,7 @@
     --btn-radius: 0.2rem;
     --box-radius: 0.5rem;
     --btn-opacity: 0.8;
+    --home-footer: #1e293b;
 }
 
 body {
@@ -24,6 +25,13 @@ body {
     border-radius: var(--box-radius);
     display: flex;
     justify-content: center;
+
+}
+
+.e_com_btn:hover,
+.addto_cart:hover,
+.horizontal_cart_btn:hover {
+    opacity: 0.9;
 }
 
 .horizontal_cart_btn,
@@ -45,6 +53,12 @@ body {
 .wishlist_btn {
     border: 2px solid var(--secondary-color);
     color: var(--secondary-color);
+}
+
+.horizontal_card {
+    background-color: white;
+    box-shadow: var(--box-shadow);
+
 }
 
 @media screen and (max-width: 1000px) {
