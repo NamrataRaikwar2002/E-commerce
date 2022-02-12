@@ -1,6 +1,6 @@
 @import url(/Authentication/login/login.css);
 @import url(/style.css);
-@import url(/home/home.css);
+@import url(/home.css);
 
 .login_div {
     height: 29rem;
