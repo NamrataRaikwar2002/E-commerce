@@ -1,4 +1,4 @@
-# MY E-commerce website.
+# MY E-commerce app.
 
 I have created it using HTML and CSS :-
 
