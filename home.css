@@ -29,7 +29,6 @@
     width: 25rem;
     text-decoration: none;
     border-radius: var(--box-radius);
-
 }
 
 .search_icon {
@@ -37,7 +36,6 @@
     border-radius: var(--box-radius);
     padding-right: 0.5rem;
     box-shadow: var(--box-shadow);
-
 }
 
 .nav_icon {
@@ -50,7 +48,7 @@
     padding: 1rem;
     gap: 1rem;
     margin-top: 3rem;
-
+    z-index: -1;
 }
 
 .nav_btn {
@@ -69,12 +67,6 @@
 
 .nav_btn:hover {
     opacity: var(--btn-opacity);
-}
-
-.landing_img {
-    max-width: 100%;
-    object-fit: cover;
-
 }
 
 .home_features {
@@ -104,22 +96,24 @@
     gap: 1rem;
 }
 
-.home_landing {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 4rem;
-    font-weight: bold;
-    width: 100%;
-    object-fit: contain;
-}
-
 .newoffer_heading {
     border-bottom: 2px solid var(--secondary-color);
 }
 
 .horizontal_card {
     height: 9rem;
+}
+
+.landing_area {
+    display: flex;
+    height: 15rem;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.landing_img {
+    width: 100%;
 }
 
 @media screen and (max-width: 998px) {
@@ -139,11 +133,15 @@
         margin-top: 7rem;
     }
 
+    .landing_area {
+        font-size: small;
+        padding: 0;
+    }
 }
 
 @media screen and (max-width:790px) {
     .search_bar {
-        width: 20rem;
+        width: 10rem;
     }
 
 }
