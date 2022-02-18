@@ -111,17 +111,15 @@
     gap: 0.5rem;
 }
 
-
 @media screen and (max-width:1000px) {
     .filters {
         width: 12rem;
         position: sticky;
         top: 8rem;
     }
-
 }
 
-@media screen and (max-width:790px) {
+@media screen and (max-width:768px) {
     .filters {
         width: 10rem;
         position: sticky;
