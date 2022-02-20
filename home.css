@@ -63,6 +63,7 @@
     display: flex;
     gap: 2rem;
     align-items: center;
+    position: relative;
 }
 
 .nav_btn:hover {
@@ -116,6 +117,32 @@
     width: 100%;
 }
 
+.wishlist_icon_badge {
+    position: absolute;
+    top: 0.2rem;
+    right: 13.65rem;
+}
+
+.cart_icon_badge {
+    position: absolute;
+    top: 0.2rem;
+    right: 10.5rem;
+}
+
+.icon_badge {
+    display: flex;
+    justify-content: center;
+    border: 1px solid;
+    width: 0.8rem;
+    height: 0.8rem;
+    font-size: 0.5rem;
+    align-items: center;
+    font-weight: bolder;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+}
+
 @media screen and (max-width: 998px) {
     body {
         font-size: small;
@@ -139,35 +166,11 @@
     }
 }
 
-.wishlist_icon_badge {
-    position: absolute;
-    top: 1rem;
-    right: 15rem;
-}
+@media screen and (max-width:1030px) {
+    .search_bar {
+        width: 20rem;
 
-.wishlist_nav_icon,
-.cart_nav_icon {
-    position: relative;
-}
-
-.cart_icon_badge {
-    position: absolute;
-    top: 1rem;
-    right: 11.7rem;
-}
-
-.icon_badge {
-    display: flex;
-    justify-content: center;
-    border: 1px solid;
-    width: 0.8rem;
-    height: 0.8rem;
-    font-size: 0.5rem;
-    align-items: center;
-    font-weight: bolder;
-    background-color: red;
-    color: white;
-    border-radius: 50%;
+    }
 }
 
 @media screen and (max-width:768px) {
@@ -175,17 +178,6 @@
         width: 10rem;
     }
 
-    .wishlist_icon_badge {
-        position: absolute;
-        top: 5.1rem;
-        left: 10.7rem;
-    }
-
-    .cart_icon_badge {
-        position: absolute;
-        top: 5rem;
-        left: 13.7rem;
-    }
 }
 
 @media screen and (max-width:555px) {

@@ -23,13 +23,12 @@
                 <a href="/index.html" class="navbar_link">Home</a>
                 <a href="" class="navbar_link">Product</a>
                 <a href="/wishlist/wishlist.html"><i class="far fa-heart nav_icon wishlist_nav_icon"></i>
-                    <p class="wishlist_icon_badge icon_badge">1</p>
+                    <p class="wishlist_icon_home_badge icon_badge">1</p>
                 </a>
                 <a href="/cart/cart.html"><i class="fas fa-shopping-cart nav_icon cart_nav_icon"></i>
-                    <p class="cart_icon_badge icon_badge">1</p>
+                    <p class="cart_icon_home_badge icon_badge">1</p>
                 </a>
                 <a href="/Authentication/login/login.html"><button class="nav_btn navbar_link">Login</button></a>
-                <a href=""><button class="nav_btn navbar_link">Logout</button></a>
             </aside>
         </nav>
         <section class="all_product content">
@@ -38,8 +37,17 @@
                     <h3>Filters</h3>
                     <button class="filter_clear">clear</button>
                 </div>
+                <h3>Price</h3>
                 <div class="price_div">
-                    <h3>Price</h3>
+                    <div class="price_container">
+                        <p>1000</p>
+                        <p>1500</p>
+                        <p>2000</p>
+                    </div>
+                    <div class="price_slider">
+                        <input type="range" min="1" max="100" value="50">
+                    </div>
+                    <h3>Sort by</h3>
                     <div>
                         <input type="radio" name="1" class="price_filer">
                         <label for="price_filter">Price-Low to High</label>
@@ -52,20 +60,40 @@
                 <div class="product_category">
                     <h3>Category</h3>
                     <div class="each_category">
-                        <input type="checkbox" name="1" class="earrings"><label for="">Earrings</label>
+                        <input type="checkbox" name="1" class="earrings">Men<label for=""></label>
                     </div>
                     <div class="each_category">
                         <input type="checkbox" name="1" class="perfumes">
-                        <label for="perfumes">Perfumes</label>
+                        <label for="perfumes">Women</label>
                     </div>
                     <div class="each_category">
                         <input type="checkbox" name="1" class="watches">
-                        <label for="watches">Wrist Watches</label>
+                        <label for="watches">Boys</label>
+                    </div>
+                    <div class="each_category">
+                        <input type="checkbox" name="1" class="watches">
+                        <label for="watches">Girls</label>
                     </div>
                 </div>
-                <div class="rating_slider">
+                <div class="price_slider">
                     <h3>Ratings</h3>
-                    <input type="range" min="1" max="100" value="50">
+                    <div>
+                        <input type="radio" name="1" class="price_filter">
+                        <label for="price_filter">4 Stars & above</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="1" class="price_filer">
+                        <label for="price_filter">3 Stars & above</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="1" class="price_filer">
+                        <label for="price_filter">2 Stars & above</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="1" class="price_filer">
+                        <label for="price_filter">1 Stars & above</label>
+                    </div>
+
                 </div>
 
             </aside>
@@ -226,9 +254,7 @@
                                 <button class="e_com_btn wishlist_btn">Save to Wishlist</button>
                             </div>
                         </section>
-
                     </div>
-
                 </section>
             </aside>
 

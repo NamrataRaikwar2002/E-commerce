@@ -38,6 +38,18 @@
     text-decoration: underline;
 }
 
+.wishlist_icon_login_badge {
+    position: absolute;
+    top: 0.2rem;
+    right: 8.3rem;
+}
+
+.cart_icon_login_badge {
+    position: absolute;
+    top: 0.2rem;
+    right: 5.2rem;
+}
+
 @media screen and (max-width: 998px) {
     .login_div {
         padding: 1rem;

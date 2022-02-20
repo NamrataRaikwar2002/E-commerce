@@ -10,6 +10,7 @@
     height: 30rem;
     position: sticky;
     top: 4rem;
+    overflow-y: scroll;
 }
 
 .filter_clear_div {
@@ -24,7 +25,7 @@
 }
 
 .product_category,
-.rating_slider {
+.price_slider {
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -111,9 +112,14 @@
     gap: 0.5rem;
 }
 
+.price_container {
+    display: flex;
+    justify-content: space-between;
+}
+
 @media screen and (max-width:1000px) {
     .filters {
-        width: 12rem;
+        width: 15rem;
         position: sticky;
         top: 8rem;
     }
@@ -121,7 +127,7 @@
 
 @media screen and (max-width:768px) {
     .filters {
-        width: 10rem;
+        width: 14rem;
         position: sticky;
         top: 8rem;
     }

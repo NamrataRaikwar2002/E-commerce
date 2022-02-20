@@ -25,7 +25,6 @@ body {
     border-radius: var(--box-radius);
     display: flex;
     justify-content: center;
-
 }
 
 .e_com_btn:hover,
@@ -61,9 +60,22 @@ body {
 
 }
 
-input{
+input {
     outline: none;
 }
+
+.wishlist_icon_home_badge {
+    position: absolute;
+    top: 0.2rem;
+    right: 7.9rem;
+}
+
+.cart_icon_home_badge {
+    position: absolute;
+    top: 0.2rem;
+    right: 4.8rem;
+}
+
 @media screen and (max-width: 1000px) {
     .content {
         margin-top: 8rem;

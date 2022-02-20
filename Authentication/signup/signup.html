@@ -22,34 +22,38 @@
             <aside class="nav_rightside">
                 <a href="/index.html" class="navbar_link">Home</a>
                 <a href="/product/product.html" class="navbar_link">Product</a>
-                <a href="/wishlist/wishlist.html"><i class="far fa-heart nav_icon"></i></a>
-                <a href="/cart/cart.html"><i class="fas fa-shopping-cart nav_icon"></i></a>
+                <a href="/wishlist/wishlist.html"><i class="far fa-heart nav_icon wishlist_nav_icon"></i>
+                    <p class="wishlist_icon_home_badge icon_badge">1</p>
+                </a>
+                <a href="/cart/cart.html"><i class="fas fa-shopping-cart nav_icon cart_nav_icon"></i>
+                    <p class="cart_icon_home_badge icon_badge">1</p>
+                </a>
                 <a href="/Authentication/login/login.html"><button class="nav_btn navbar_link">Login</button></a>
             </aside>
         </nav>
         <section class="login_box content">
             <form>
-            <div class="login_div">
-                <h2 class="createAccount">Signup</h2>
-                <label for="login_input">First Name</label>
-                <input type="text" class="login_input" placeholder="Enter you first name" required>
-                <label for="login_input">Last Name</label>
-                <input type="text" class="login_input" placeholder="Enter your last name" required>
-                <label for="login_input">Email address</label>
-                <input type="email" class="login_input" placeholder="username" required>
-                <label for="login_input">Password</label>
-                <input type="text" class="login_input" placeholder="Enter Password" required>
-                <label for="login_input">Confirm Password</label>
-                <input type="text" class="login_input" placeholder="Reenter Password" required>
-                <div class="forgot_password_div">
-                    <input type="checkbox" name="1" class="rememberme" required>
-                    <label for="rememberme">I accept all Terms & Conditions</label>
+                <div class="login_div">
+                    <h2 class="createAccount">Signup</h2>
+                    <label for="login_input">First Name</label>
+                    <input type="text" class="login_input" placeholder="Enter you first name" required>
+                    <label for="login_input">Last Name</label>
+                    <input type="text" class="login_input" placeholder="Enter your last name" required>
+                    <label for="login_input">Email address</label>
+                    <input type="email" class="login_input" placeholder="username" required>
+                    <label for="login_input">Password</label>
+                    <input type="text" class="login_input" placeholder="Enter Password" required>
+                    <label for="login_input">Confirm Password</label>
+                    <input type="text" class="login_input" placeholder="Reenter Password" required>
+                    <div class="forgot_password_div">
+                        <input type="checkbox" name="1" class="rememberme" required>
+                        <label for="rememberme">I accept all Terms & Conditions</label>
+                    </div>
+                    <button type="submit" class="primary_btn btn">Create New Account</button>
+                    <a href="/Authentication/login/login.html" class="createAccount login_signup_link">Already have an
+                        account</a>
                 </div>
-                <button type="submit" class="primary_btn btn">Create New Account</button>
-                <a href="/Authentication/login/login.html" class="createAccount login_signup_link">Already have an
-                    account</a>
-            </div>
-        </form>
+            </form>
         </section>
     </main>
 </body>
